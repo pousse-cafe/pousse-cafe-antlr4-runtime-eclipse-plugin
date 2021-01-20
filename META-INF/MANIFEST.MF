@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ANTLR4 Runtime Eclipse Plugin
+Bundle-SymbolicName: pousse-cafe-antlr4-runtime-eclipse-plugin
+Bundle-Version: 4.8.0.202101081124
+Automatic-Module-Name: pousse.cafe.antlr4.runtime.eclipse.plugin
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Bundle-ClassPath: antlr4-runtime-4.8-1.jar
+Export-Package: org.antlr.v4.runtime,
+ org.antlr.v4.runtime.atn,
+ org.antlr.v4.runtime.dfa,
+ org.antlr.v4.runtime.misc,
+ org.antlr.v4.runtime.tree,
+ org.antlr.v4.runtime.tree.pattern,
+ org.antlr.v4.runtime.tree.xpath
